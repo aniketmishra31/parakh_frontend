@@ -1,0 +1,24 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.linkContainer {
+  display: flex;
+  gap: 30px;
+}
+
+.linkContainer > a {
+  background-color: rgb(152, 135, 135);
+  padding: 10px;
+  border-radius: 12px;
+  transition: all 0.3s;
+}
+
+.linkContainer > a:hover {
+  background-color: rgb(124, 124, 124);
+}
